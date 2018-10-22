@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SongBird</title>
+	<link rel="icon" type="image/jpeg" href="">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="container">
+	<header>
+		<nav>
+			<a href="loginPage.html">Login</a>
+			<a href="signUpPage.html">Sign Up</a>
+			<a href="forArtiste.html">Upload Music</a>
+		</nav>
+		<h1>Welcome Songbirds</h1>
+		<p>Here you discover your favourite artistes, expand your playlist
+		and make friends who share your taste in music</p>
+		<button><a href="">Join for free</a></button><br><br>
+		
+	</header>
+<br><br>
+	<div class="row">
+		<span style="margin-left: 22em;">
+		<!-- the search bar leads to musicPage.html-->
+		<input type="search" name="search" placeholder="Search for artistes,tracks, albums..." class="inputdeco">   &nbsp; or &nbsp;&nbsp; 
+		<button><a href="forArtiste.html">Upload Music</a></button>
+		</span>
+	</div>
+    
+    <div class="slideshow-container">
+    	<h2>Trending</h2>
+		
+<!-- Below is where you add the sliding images -->
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="mixer5.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="mic2.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="mixer3.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+  <br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+</div>
+
+    <div class="row" style="background-color: tomato">
+    	<h2>Welcome Great Artistes</h2>
+    	<p>Get in here to grow your fanbase, network with fans and promoters
+    	   and make some money from your music.</p>
+    	   <button><a href="forArtiste.html">Learn more</a></button>
+    </div>
+
+    <div class="row" style="background-color: tomato;">
+    	<h2>Be a Part of our community</h2>
+    	<p>Save tracks, follow and rate your favourite artistes, build your playlist</p>
+    	<button><a href="signUpPage.html">Create Account</a></button>
+      <span class="">
+    	<p>Already have an account?</p>
+    	<button><a href="loginPage.html">Sign in</a></button>
+      </span>
+    </div>
+
+    <footer>
+    	&copy;2018 by Team SkyForce for NaijaHacks.	
+    </footer>
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+</script>
+   
+   </div>
+</body>
+</html>
