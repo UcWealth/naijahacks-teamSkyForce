@@ -13,8 +13,10 @@ ifunanyaokeke18@gmail.com
 3. John Benjamin
 johnzeus14@gmail.com
 
-FinTech Section
+Entertainment Section
+We are building a platform that will help unsigned and upcoming artists 
+grow their fanbase and make some money from their music at the same time.
 
-Our Proposed Stack is JavaScript and any of its frameworks,
+Our Proposed Stack is JavaScript, Html, CSS
 and Python(Django)
 
