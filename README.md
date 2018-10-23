@@ -17,6 +17,6 @@ Entertainment Section
 We are building a platform that will help unsigned and upcoming artists 
 grow their fanbase and make some money from their music at the same time.
 
-Our Proposed Stack is JavaScript, Html, CSS
+Our Proposed Stack is JavaScript, Html, CSS, PHP
 and Python(Django)
 
